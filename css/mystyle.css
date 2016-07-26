@@ -1,0 +1,294 @@
+/*styling for Homepage*/
+
+
+
+.jumbotron {
+    background-image: url("../images/imgsecondhome.jpg");
+    height: 70px;
+    padding-bottom:  1000px;
+  
+   
+}
+
+
+
+/*styling for Homepage*/
+
+/*Thailand*/
+
+/*End Thailand*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling for France Page */
+.navbar-custom {
+    background-color: #699EC9;
+    color:#ffffff;
+    border-color:red;
+  
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-brand {
+    color: black;
+}
+
+.navbar-custom2 .navbar-nav> li > a {
+    color:black;
+}
+
+ol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:25;
+    margin-right:25;
+    padding-left:390px;
+    
+    
+}
+
+
+    
+
+
+
+/* End of Styling for France Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TURKEY below */
+
+/*carousel fade from LYNDA.COM*/
+.carousel.fade{
+    opacity:1;
+} 
+.carousel.fade .item{
+    transition: opacity ease-out .7s;
+    left:0;
+    opacity:0;
+    top:0;
+    position:absolute;
+    width:100%;
+    display:block;
+}
+.carousel.fade .item:first-child {
+    top: auto;
+    opacity:1;
+    position:relative;    
+}
+.carousel.fade .item.active {
+    opacity:1;
+}
+.carousel-control {
+    opacity: 0;
+}
+.carousel-control.right, 
+.carousel-control.left {
+    background-image: none;
+}
+#turkey_carousel {
+      padding-top:-20px;
+}
+#turkey_carousel .item {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:100%;
+    height:100%;
+}
+.subject img {
+    max-width:333px;
+    border-radius: 7px;
+    border:2px;
+    border-style: solid;
+    border-color: #b30000;
+}
+.page p, h4 {
+     /*font-family: 'Open Sans', sans-serif;*/
+     /*font-weight: 600;*/ 
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Amarante', cursive;
+    color:black;
+}
+.page h3 {
+    color:black;
+    font-family: 'Shrikhand', cursive;
+}
+.page h2, h1{
+    color:black;
+    font-family: 'Shrikhand', cursive;
+}
+
+#turkeyNavbar {
+    background-image: url("../images/turkey_intro_text_IMG_2201_700_70.jpg");
+    color:black;
+}
+#turkeyNavbar li {
+    color:black;
+    font-family: 'Shrikhand', cursive;
+}
+#turkeyNavbar li a{
+    color:black;
+    font-family: 'Shrikhand', cursive;
+}
+.navbar-brand a {
+    color:black;
+    font-family: 'Shrikhand', cursive;
+    text-decoration: none;
+}
+.navbar-brand {
+    color:black;
+    font-family: 'Shrikhand', cursive;
+    text-decoration: none;
+}
+#intro_text {
+    background-image: url("../images/turkey_intro_text_IMG_2201_700_70.jpg");
+    padding-bottom:20px;
+}
+
+#subjects {
+    background-image:url("../images/turkey_background_DSC0227_2_85x3.jpg");
+}
+#subjects2 {
+    background-image:url("../images/turkey_background_DSC0227_2_85x3.jpg");
+}
+#bottom1 {
+    background-image:url("../images/turkey_background2_DSC0012_2_700hi.jpg");
+}
+#bottom2 {
+    background-image:url("../images/turkey_background_DSC0054.jpg");
+}
+#circles {
+    padding-top:33px;
+    padding-bottom:15px;
+    text-align: center;
+}
+#circles2 {
+    padding-top:33px;
+    padding-bottom:15px;
+    text-align: center;
+}
+#circles h4 {
+     font-family: 'Shrikhand', cursive;
+     color:black;
+     text-decoration: none;
+     padding-right:20px;
+}
+#circles img {
+    border-radius: 90%;
+    max-width:150px;
+    height:150px;
+    border:3px;
+    border-style: solid;
+    border-color: #b30000;
+}
+#circles2 h4 {
+     font-family: 'Shrikhand', cursive;
+     color:black;
+     text-decoration: none;
+     padding-right:20px;
+}
+#circles2 img {
+    border-radius: 90%;
+    max-width:150px;
+    height:150px;
+    border:3px;
+    border-style: solid;
+    border-color: #b30000;
+}
+.subtext {
+   background-image:url("../images/turkey_subtext_IMG_2217z_80.jpg");
+}
+#turkey_question{
+    font-family: 'Amarante', cursive;
+    font-weight: bold;
+    padding-bottom: 30px;
+    display: block;
+    margin: auto;
+}
+#door {
+    display: block;
+    margin: auto;
+    padding-bottom:30px;
+}
+#door_text {
+    display: block;
+    margin: auto;
+    padding-bottom:30px;
+    font-family: 'Amarante', cursive;
+    font-weight: bold;
+}
+.turkey_red {
+    color:  #b30000;
+}
+.turkey_red_big {
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Kaushan Script', cursive;
+}
+#weather {
+    background-image:url("../images/turkey_IMG_9825_weeather_888pixelsw3.jpg");
+    font-family: 'Kaushan Script', cursive;
+    color:maroon;
+    height:222px;
+    max-width: 1200px;
+    border:3px;
+    border-style: solid;
+    border-color: #b30000;
+    border-radius: 10px;
+}
+
+.turkey_footer {
+    padding-top:10px;
+    text-decoration: none;
+    color:black;
+}
+#end {
+     font-family: 'Kaushan Script', cursive;
+     color:#990000;
+     text-align: center;
+}
+/* TURKEY above */
