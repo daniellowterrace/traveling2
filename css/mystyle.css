@@ -3,7 +3,7 @@
 
 
 .jumbotron {
-    background-image: url("../images/imgsecondhome.jpg");
+    background-image: url("../images/homepagefinal.jpg");
     height: 70px;
     padding-bottom:  1000px;
   
@@ -71,30 +71,7 @@ ol {
     
 
 
-
 /* End of Styling for France Page */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -290,5 +267,13 @@ ol {
      font-family: 'Kaushan Script', cursive;
      color:#990000;
      text-align: center;
+     cursor: pointer;
 }
 /* TURKEY above */
+
+/* styling for Costa Rica page */
+.navbar-custom3 .navbar-nav> li > a {
+    color:#cc33ff;
+}
+
+/* end styling for Costa Rica page */

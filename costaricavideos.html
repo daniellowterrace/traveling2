@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <title>Costa Rica</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href='css/mystyle.css' rel='stylesheet' type='text/css'>
+    
+    <style>
+       
+        
+    </style>
+</head>
+
+<body>
+
+<div class="container">    <!--Container BEGINS-->
+   
+    <div class="collapse navbar-collapse " id="myNavbar ">
+      <nav class="navbar navbar-custom3"> <!--Custom styling-->  
+    <ul class="nav navbar-nav ">
+        <li><a href="turkey.html"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>  Turkey</a></li>
+        <li><a href="thailand.html">Thailand</a></li>
+        <li><a href="france.html">France</a></li>
+        <li><a href="costaRica.html">Costa Rica</a></li>
+     </ul>
+    
+    </nav> <!--Custom styling End-->
+
+
+
+
+
+
+<!--video playback begins -volcano-->
+    <br><br>
+    <h3 align="center">This is a video of one of the many volcanic areas of Costa Rica.</h3>
+    
+    <div style="text-align:center">
+  <button onclick="playPause()">Play/Pause</button>
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video controls muted id="video1" width="420"> <!--muting video??-->
+    <source src="images/costaRica/crCarousel/Volcanic%20mud.mp4" type="video/mp4">
+    <source src="images/costaRica/crCarousel/Volcanic%20mud.mp4" type="video/ogg">
+    Your browser does not support this video.
+  </video>
+</div>
+
+<script>
+var myVideo = document.getElementById("video1");
+
+function playPause() {
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.pause();
+}
+
+function makeBig() {
+    myVideo.width = 560;
+}
+
+function makeSmall() {
+    myVideo.width = 320;
+}
+
+function makeNormal() {
+    myVideo.width = 420;
+}
+</script>
+<!-- volcano video ends!-->
+
+<!-- beach video begins !-->
+    <br><br>
+    <h3 align="center">Listening to, and watching, ocean water is often relaxing.</h3>
+    
+    
+    <!-- how to center video?? Need to do in CSS?? !-->
+  <video width="420" controls>
+    <source src="images/costaRica/beach.mp4" type="video/mp4">
+    <source src="images/costaRica/beach.mp4" type="video/ogg">
+    Your browser does not support this video.
+  </video>
+
+    
+    
+<p align="center">Videos courtesy of N. Ibe</p>
+    
+<!-- Video play back ends!-->
+
+
+
+
+<script src="js/jquery-2.2.4.js "></script>
+<script src="js/bootstrap.js "></script>
+
+</body>
+
+</html>
