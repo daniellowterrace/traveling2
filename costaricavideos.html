@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/mystyle.css">
     <title>Costa Rica</title>
@@ -11,8 +12,9 @@
     
     <style>
        
-        
+       
     </style>
+    
 </head>
 
 <body>
@@ -30,75 +32,49 @@
     
     </nav> <!--Custom styling End-->
 
-
+    </div>
 
 
 
 
 <!--video playback begins -volcano-->
     <br><br>
-    <h3 align="center">This is a video of one of the many volcanic areas of Costa Rica.</h3>
+
+          <h4>This is a video of an active volcano (not in Costa Rica). I did see volcanic mud, in CR, though.</h4>
+         
+              <div class="embed-responsive embed-responsive-4by3">
+              
+            <iframe class="embed-responsive-item" src="images/costaRica/foundVolcano.mp4"></iframe>
+            
+          </div>
     
-    <div style="text-align:center">
-  <button onclick="playPause()">Play/Pause</button>
-  <button onclick="makeBig()">Big</button>
-  <button onclick="makeSmall()">Small</button>
-  <button onclick="makeNormal()">Normal</button>
-  <br><br>
-  <video controls muted id="video1" width="420"> <!--muting video??-->
-    <source src="images/costaRica/crCarousel/Volcanic%20mud.mp4" type="video/mp4">
-    <source src="images/costaRica/crCarousel/Volcanic%20mud.mp4" type="video/ogg">
-    Your browser does not support this video.
-  </video>
-</div>
-
-<script>
-var myVideo = document.getElementById("video1");
-
-function playPause() {
-    if (myVideo.paused)
-        myVideo.play();
-    else
-        myVideo.pause();
-}
-
-function makeBig() {
-    myVideo.width = 560;
-}
-
-function makeSmall() {
-    myVideo.width = 320;
-}
-
-function makeNormal() {
-    myVideo.width = 420;
-}
-</script>
+    
 <!-- volcano video ends!-->
 
 <!-- beach video begins !-->
     <br><br>
-    <h3 align="center">Listening to, and watching, ocean water is often relaxing.</h3>
+   
+          <h4 align="center">Listening to, and watching, ocean water is often relaxing.</h4>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="images/costaRica/beach.mp4"></iframe>
+            
+
+            
+          </div>
     
-    
-    <!-- how to center video?? Need to do in CSS?? !-->
-  <video width="420" controls>
-    <source src="images/costaRica/beach.mp4" type="video/mp4">
-    <source src="images/costaRica/beach.mp4" type="video/ogg">
-    Your browser does not support this video.
-  </video>
 
     
     
-<p align="center">Videos courtesy of N. Ibe</p>
+<p align="center">Volcano video courtesy of Pixaby, beach video courtesy of N. Ibe</p>
     
 <!-- Video play back ends!-->
 
-
+</div> <!--Container ENDS-->
 
 
 <script src="js/jquery-2.2.4.js "></script>
 <script src="js/bootstrap.js "></script>
+
 
 </body>
 

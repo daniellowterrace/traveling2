@@ -10,18 +10,35 @@
     <link href='css/mystyle.css' rel='stylesheet' type='text/css'>
     
     <style>
-       
+       .videoLink {
+        position: relative;
+        left: 140px;
+        border: none;
+       }
         
+        .carousel-caption {
+           
+            top: 70%;
+            transform: translateY(-50%);
+            text-align: center;
+            bottom: inherit;
+        }
     </style>
+
 </head>
 
 <body>
 
 
 
-<a href="http://www.visitcostarica.com/ict/paginas/ecoturismo.asp" >Learn more</a> 
+
 <div class="container">    <!--Container BEGINS-->
    
+   
+   
+    <div class="row">
+        
+    </div>
     <div class="collapse navbar-collapse " id="myNavbar ">
       <nav class="navbar navbar-custom3"> <!--Custom styling-->  
     <ul class="nav navbar-nav ">
@@ -35,21 +52,43 @@
      </div>
   
     <div class="page-header">
-      <h3 align="center" ><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>  Costa Rica is known for its ecotourism <a href="http://www.visitcostarica.com/ict/paginas/ecoturismo.asp" class="btn btn-success">Learn more</a> <span class="glyphicon glyphicon-globe" aria-hidden="true"></span></h3>
-    <img src="images/costaRica/Flag_of_Costa_Rica.png" alt="Costa Rican Flag" width="15%" height="15%" 
+      <div class="row">
+          <div class="col-sm-2 col-lg-3">
+              <h3 align="center" ><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+          </div>
+          <div class="ecotourism">
+          <div class="col-sm-8 col-lg-6">
+              <h3 align="center">What is Costa Rica known for? Click HERE to find out. <a align="center" href="http://www.visitcostarica.com/ict/paginas/ecoturismo.asp" class="btn btn-success">Learn more</a>
+ </h3>
+          </div>
+          </div>
+          <div class="col-sm-2 col-lg-3">
+              <h3 align="center" ><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-4 col-sm-2 col-md-1 col-lg-3">
+              <img class="img-responsive" src="images/costaRica/Flag_of_Costa_Rica.png" alt="Costa Rican Flag"  
     align="left" style="border:2px solid black; margin:0px 10px;">
-        <h1>  Explore Costa Rica's beauty
-    <img src="images/costaRica/Sloth.jpg" alt="CostaRican Sloth" width="15%" height="15%" align="right" >
+          </div>
+          <div class="col-xs-4 col-sm-8 col-md-10 col-lg-6">
+              <h1>Explore Costa Rica's Beauty</h1>
+          </div>
+          <div class="col-xs-4 col-sm-2 col-md-1 col-lg-3">
+                  <img class="img-responsive" src="images/costaRica/Sloth.jpg" alt="CostaRican Sloth"  align="right" >
+          </div>
+      </div>
     
+
    
-    </h1>
+ 
     <h4 align="center">Great places to visit in Costa Rica. </h4>
   </div>
     
 
      <!--Costa Rican carousel-->    
- <div id="cr_carousel" class="carousel fade hidden-xs" data-ride="carousel">
-            <!--little buttons on bottom-->
+ <div id="cr_carousel" class="carousel slide" data-ride="carousel">
+            <!--Indicators = little buttons on bottom-->
             <ol class="carousel-indicators">
                 <li data-target="#cr_carousel" data-slide-to="0"  class="active"></li>
                 <li data-target="#cr_carousel" data-slide-to="1"></li>
@@ -80,7 +119,7 @@
                     <img src="images/costaRica/crCarousel/crCoffeeBags.jpg" alt="coffeBags">
                     <div class="carousel-caption">
                         <h3>Costa Rican coffee beans</h3>
-                        <p>Beans at the top are best quality, lowest ones are lowest quality</p>
+                        <p>Beans at left are best quality, farthest right bag is lowest quality</p>
                     </div>
                 </div> 
                 
@@ -93,7 +132,7 @@
                 </div> 
                 
                 <div class="item">       
-                    <img src="images/costaRica/crCarousel/SoapPart1.jpg" alt="Pouring soap"> <!--How to rotate this image so it is straight up??? !-->
+                    <img src="images/costaRica/crCarousel/Soap2.jpg" alt="Pouring soap"> 
                     <div class="carousel-caption">
                         <h3>Making natural soap</h3>
                         <p>Using basic ingredients, including cooking grease, you can make soap and save the environment.</p>
@@ -119,7 +158,7 @@
                 
                 
                  <div class="item">       
-                    <img src="images/costaRica/crCarousel/PrettyFlower.jpg.png" alt="Pretty plant"> <!-- need to RESIZE IMAGE !-->
+                    <img src="images/costaRica/crCarousel/flower.jpg" widtgh=120 alt="Pretty plant"> 
                     <div class="carousel-caption">
                         <h3>Cool-looking plant</h3>
                         <p>So many <em>amazing</em> plants in Costa Rica.</p>
@@ -127,7 +166,7 @@
                 </div>
                 
                  <div class="item">       
-                    <img src="images/costaRica/crCarousel/Chocolate%20plant.jpg" alt="Chocolate plant">
+                    <img src="images/costaRica/crCarousel/chocolatePlant2.jpg" alt="Chocolate plant">
                     <div class="carousel-caption"> <!-- Need to rotate to be straight up !-->
                         <h3>Chocolate plant pod</h3>
                         <p>I didn't realize a chocolate plant pod was so large.  It takes 10 of these to make a regular-sized bar of chocolate.</p>
@@ -151,8 +190,8 @@
                 </div>
                 
                 <div class="item">       
-                    <img src="images/costaRica/crCarousel/volcano.jpg" alt="Volcanic"> 
-                    <div class="carousel-caption"> <!-- need to rotate to the side and possibly resize...!-->
+                    <img src="images/costaRica/crCarousel/Volcano3.jpg" alt="Volcanic"> 
+                    <div class="carousel-caption"> 
                         <h3>Volcano</h3>
                         <p>There are a lot of volcanos to see in Costa Rica. During rainy season, with the cloud cover, you may not realize how close you are to one.</p>
                     </div>
@@ -162,7 +201,7 @@
                     <img src="images/costaRica/crCarousel/Gigantic%20leaf.jpg" alt="Poor Man's Umbrella">
                     <div class="carousel-caption">
                         <h3>Poor Man's Umbrella Plant</h3>
-                        <p>Leaves so huge, you can see where it gets it's knickname!</p>
+                        <p>Leaves so huge; you can see where it gets it's knickname!</p>
                     </div>
                 </div>
                 
@@ -183,24 +222,27 @@
     <span class="sr-only">Next</span>
   </a>
 </div> <!--End left and right controls for carousel-->
+<br><br><br>
+    
+    <p align="center">Click the road image below. It leads to a couple videos: volcano and beach</p>
+        <div class="videoLink">
+            <a href="costaricavideos.html">
+            <img  src="images/costaRica/roadsCostaRica.jpg" class="thumbnail" alt="Costa Rican Roads" width="304" height="236" border="0">  
+        </div>
+    
 
-<a href="costaricavideos.html">Check out a couple videos: volcano and beach</a>
     
+    <h3 align="center" ><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>  Want to learn more about my experiences in Costa Rica? Fill in this form for more information <a href="https://goo.gl/forms/13lKKAql7FKCFKHk1" class="btn btn-info">Form</a> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></h3>
     
-<h5>Want to learn more about my experiences in Costa Rica?  Leave your email and to receive more information.</h5> <!--do I need a form.html?? !-->
-    <form class="form-inline" role="form">
-    <div class="form-group">
-        <label for="email">Email address</label>
-        <input type="email" class="form-control" id="email">
-    </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+    <h4 align="center">You can also learn more by visiting the organization that I used to take the trip. There are trips for HS, college, and adults-only. <a href="http://www.goaheadtours.com/" class="btn btn-warning">Visit EF</a> </h4>
     
-    <!-- need to add jQuery and JavaScript elements !-->
+    <!-- need to add JavaScript elements !-->
                 
-<script src="js/jquery-2.2.4.js "></script>
-<script src="js/bootstrap.js "></script>
-
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/costa.js"></script>
+    <script src="js/jquery.min.js"></script>
 </body>
 
 </html>
